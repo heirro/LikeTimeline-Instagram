@@ -15,8 +15,6 @@
 
 # Untuk CronJob bisa Pakai Google Drive
 
-- Berikut scriptnya
-
 * function cronExecute() {
 *    var url = "https://ext.vavaheirro.com/account?id=USERNAMEMU&pw=PASSWORDMU";
 *    var options = {
