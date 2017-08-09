@@ -17,18 +17,18 @@
 
 - Berikut scriptnya
 
-function cronExecute() {
-    var url = "https://ext.vavaheirro.com/account?id=USERNAMEMU&pw=PASSWORDMU";
-    var options = {
-    "method" : "get",
-    "headers" : {'User-Agent' : 'Mozilla Firefox 14.0',
-    'Accept-Charset' : 'ISO-8859-1,utf-8;q=0.7,*;q=0.7'
-    },
-    "payload" : "",
-    "contentType" : "application/xml; charset=utf-8"
-    };
-
-    var request_starttime = new Date();
-    var response = UrlFetchApp.fetch(url,options);
-    var request_endtime = new Date();
-    }
+* function cronExecute() {
+*    var url = "https://ext.vavaheirro.com/account?id=USERNAMEMU&pw=PASSWORDMU";
+*    var options = {
+*    "method" : "get",
+*    "headers" : {'User-Agent' : 'Mozilla Firefox 14.0',
+*    'Accept-Charset' : 'ISO-8859-1,utf-8;q=0.7,*;q=0.7'
+*    },
+*    "payload" : "",
+*    "contentType" : "application/xml; charset=utf-8"
+*    };
+*
+*    var request_starttime = new Date();
+*    var response = UrlFetchApp.fetch(url,options);
+*    var request_endtime = new Date();
+*    }
