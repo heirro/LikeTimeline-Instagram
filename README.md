@@ -16,7 +16,7 @@
 # Untuk CronJob bisa Pakai Google Drive
 
 * function cronExecute() {
-*    var url = "https://ext.vavaheirro.com/account?id=USERNAMEMU&pw=PASSWORDMU";
+*    var url = "https://api.heirro.net/apps/ig/tllike/?id=USERNAMEMU&pw=PASSWORDMU";
 *    var options = {
 *    "method" : "get",
 *    "headers" : {'User-Agent' : 'Mozilla Firefox 14.0',
