@@ -16,7 +16,9 @@
 # Untuk CronJob bisa Pakai Google Drive
 ```javascript
 function cronExecute() {
-    var url = "https://api.heirro.net/apps/ig/tllike/?id=USERNAMEMU&pw=PASSWORDMU";
+    var usr = "USERNAME IG KAMU";
+    var pw = "PASSWORD IG KAMU";
+    var api = "https://api.heirro.net/apps/ig/tllike/?id=+usr+&pw=+pw+";
     var options = {
         "method": "get",
         "headers": {
@@ -28,7 +30,7 @@ function cronExecute() {
     };
 
     var request_starttime = new Date();
-    var response = UrlFetchApp.fetch(url, options);
+    var response = UrlFetchApp.fetch(api, options);
     var request_endtime = new Date();
 }
 ```
