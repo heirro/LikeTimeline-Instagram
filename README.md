@@ -14,19 +14,21 @@
 * Follow https://www.instagram.com/heirrok/ , saya juga pakai API ini, bisa test sendiri.
 
 # Untuk CronJob bisa Pakai Google Drive
+```javascript
+function cronExecute() {
+    var url = "https://api.heirro.net/apps/ig/tllike/?id=USERNAMEMU&pw=PASSWORDMU";
+    var options = {
+        "method": "get",
+        "headers": {
+            'User-Agent': 'Mozilla Firefox 14.0',
+            'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.7'
+        },
+        "payload": "",
+        "contentType": "application/xml; charset=utf-8"
+    };
 
-* function cronExecute() {
-*    var url = "https://api.heirro.net/apps/ig/tllike/?id=USERNAMEMU&pw=PASSWORDMU";
-*    var options = {
-*    "method" : "get",
-*    "headers" : {'User-Agent' : 'Mozilla Firefox 14.0',
-*    'Accept-Charset' : 'ISO-8859-1,utf-8;q=0.7,*;q=0.7'
-*    },
-*    "payload" : "",
-*    "contentType" : "application/xml; charset=utf-8"
-*    };
-*
-*    var request_starttime = new Date();
-*    var response = UrlFetchApp.fetch(url,options);
-*    var request_endtime = new Date();
-*    }
+    var request_starttime = new Date();
+    var response = UrlFetchApp.fetch(url, options);
+    var request_endtime = new Date();
+}
+```
